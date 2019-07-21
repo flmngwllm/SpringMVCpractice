@@ -30,5 +30,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Spring 5" level="application" />
+    <orderEntry type="library" name="javax.servlet-api-4.0.1" level="project" />
   </component>
 </module>
