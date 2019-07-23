@@ -3,10 +3,10 @@ package com.will.spring.mvc;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-
 import javax.servlet.http.HttpServletRequest;
 
 @Controller
+@RequestMapping("/hello")
 public class HelloWorldController {
 
     // need a controller method to show initial form
@@ -31,10 +31,11 @@ public class HelloWorldController {
         // convert the data to all caps
         theName = theName.toUpperCase();
         //create the message
-        String result = "Yassss!" + theName;
+        String result = "Yassss! " + theName;
         // add message to the model
         model.addAttribute("message", result);
-        return "hellworld";
+
+        return "helloworld";
     }
 
 

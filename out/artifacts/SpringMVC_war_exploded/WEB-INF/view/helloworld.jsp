@@ -17,5 +17,9 @@ Hello World of Spring
 
 <!-- jsp express language/ name of form field-->
 Student name: ${param.studentName}
+
+<br><br>
+
+The message: ${message}
 </body>
 </html>

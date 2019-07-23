@@ -29,6 +29,7 @@
           <element id="file-copy" path="$USER_HOME$/Documents/spring-framework-5.1.8.RELEASE/libs/spring-webflux-5.1.8.RELEASE.jar" />
           <element id="file-copy" path="$USER_HOME$/Documents/spring-framework-5.1.8.RELEASE/libs/spring-webmvc-5.1.8.RELEASE.jar" />
           <element id="file-copy" path="$USER_HOME$/Documents/spring-framework-5.1.8.RELEASE/libs/spring-websocket-5.1.8.RELEASE.jar" />
+          <element id="library" level="project" name="javax.servlet.jsp.jstl-1.2.1" />
         </element>
       </element>
     </root>
