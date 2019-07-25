@@ -7,21 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="251a4c5a-b86a-437d-bd76-9bb34c576e37" name="Default Changelist" comment="created a hello world controller and mapped the method to /showForm">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_servlet_jsp_jstl_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/will/spring/mvc/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/will/spring/mvc/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/student-confirmation.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/student-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/will/spring/mvc/SillyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/SpringMVC_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SpringMVC_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/view/helloworld-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/view/helloworld-form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/view/helloworld.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/view/helloworld.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/view/main-menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/view/main-menu.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/will/spring/mvc/HelloWorldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/will/spring/mvc/HelloWorldController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/helloworld-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/helloworld-form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/helloworld.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/helloworld.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/main-menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/main-menu.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/will/spring/mvc/HelloWorldController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="797">
+              <caret line="45" column="45" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,19 +39,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/helloworld.jsp">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/helloworld-form.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="294">
+              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/helloworld-form.jsp">
+        <entry file="file://$PROJECT_DIR$/src/com/will/spring/mvc/SillyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            <state relative-caret-position="273">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/student-confirmation.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state relative-caret-position="194">
+              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -116,7 +110,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/main-menu.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
@@ -139,8 +133,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -157,14 +151,15 @@
         <option value="$PROJECT_DIR$/src/com/will/spring/mvc/HomeController.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/helloworld-form.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/helloworld.jsp" />
         <option value="$PROJECT_DIR$/src/com/will/spring/mvc/StudentController.java" />
-        <option value="$PROJECT_DIR$/src/com/will/spring/mvc/HelloWorldController.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/main-menu.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/student-form.jsp" />
         <option value="$PROJECT_DIR$/src/com/will/spring/mvc/Student.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/student-confirmation.jsp" />
+        <option value="$PROJECT_DIR$/src/com/will/spring/mvc/HelloWorldController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/helloworld-form.jsp" />
+        <option value="$PROJECT_DIR$/src/com/will/spring/mvc/SillyController.java" />
       </list>
     </option>
   </component>
@@ -175,9 +170,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="646" />
-    <option name="width" value="634" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="726" />
+    <option name="width" value="554" />
     <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -202,7 +197,26 @@
             <path>
               <item name="SpringMVC" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -434,15 +448,15 @@
       <workItem from="1563730979749" duration="3079000" />
       <workItem from="1563735458517" duration="3739000" />
       <workItem from="1563742498082" duration="15566000" />
-      <workItem from="1563906476119" duration="2520000" />
+      <workItem from="1563906476119" duration="7252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24904000" />
+    <option name="totallyTimeSpent" value="29636000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="726" y="0" width="554" height="800" extended-state="6" />
+    <frame x="726" y="0" width="554" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35351562" />
@@ -455,7 +469,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.359944" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.359944" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -513,27 +527,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/will/spring/mvc/HelloWorldController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/helloworld.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/helloworld-form.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -554,13 +551,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/main-menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -587,8 +577,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/student-confirmation.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="194">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/will/spring/mvc/SillyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/will/spring/mvc/HelloWorldController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="45" column="45" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/helloworld-form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/main-menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
